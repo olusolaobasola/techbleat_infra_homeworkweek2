@@ -20,6 +20,7 @@ resource "aws_instance" "node_one" {
   tags = {
     Name        = "Tool Box"
     provisioner = "Terraform"
+    test        = "yes_no"
   }
 }
 
